@@ -2,10 +2,20 @@
 
 ; TODO configure env variable for editor
 ; Open favorite text editor
-#w:: Run Notepad++
+#w:: 
+Run Notepad++
+Return
 
+; TODO configure env variable for console emulator
 ; Open a command prompt
-#c:: Run %comspec%
+#c:: 
+Run c:\cmder\cmder.exe
+Return
 
-; Google Search for clipboard contents
-#g::   Run http://www.google.com/search?q=%clipboard%
+; Google Search for highlighted text
+#g::
+bak = %clipboard%
+Send, ^c
+Run, http://www.google.com/search?q=%clipboard%
+clipboard = %bak%
+Return
