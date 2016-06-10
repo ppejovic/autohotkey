@@ -7,3 +7,4 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #Include %A_ScriptDir%
 
 #Include shortcuts.ahk
+#Include autocorrect.ahk
