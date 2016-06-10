@@ -9,7 +9,7 @@ Return
 ; TODO configure env variable for console emulator
 ; Open a command prompt
 #c:: 
-Run c:\cmder\cmder.exe
+Run c:\Tools\cmder\cmder.exe
 Return
 
 ; Google Search for highlighted text
