@@ -1,4 +1,4 @@
-; #=Win
+﻿; #=Win
 
 ; TODO configure env variable for editor
 ; Open favorite text editor
