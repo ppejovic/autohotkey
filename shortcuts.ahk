@@ -8,8 +8,16 @@ Return
 
 ; Open favorite command prompt
 #c:: 
-EnvGet, prompt, COMMAND_PROMPT
-Run %prompt%
+title = Cmder ;TODO remove hardcoding 
+IfWinExist, %title%
+{
+    WinActivate
+}
+else
+{
+    EnvGet, prompt, COMMAND_PROMPT
+    Run %prompt%
+}
 Return
 
 ; Google Search for highlighted text
