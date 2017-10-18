@@ -1,15 +1,15 @@
 ﻿; #=Win
 
-; TODO configure env variable for editor
 ; Open favorite text editor
 #w:: 
-Run Notepad++
+EnvGet, editor, EDITOR
+Run %editor%
 Return
 
-; TODO configure env variable for console emulator
-; Open a command prompt
+; Open favorite command prompt
 #c:: 
-Run c:\Tools\cmder\cmder.exe
+EnvGet, prompt, COMMAND_PROMPT
+Run %prompt%
 Return
 
 ; Google Search for highlighted text
