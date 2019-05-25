@@ -3792,6 +3792,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::questoin::question
 ::quetion::question
 ::questonable::questionable
+::questionaire::questionnaire
 ::questionnair::questionnaire
 ::quesions::questions
 ::questioms::questions
